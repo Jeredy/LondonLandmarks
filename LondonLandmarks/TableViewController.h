@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  LondonLandmarks
 //
 //  Created by André Almeida on 2022-10-17.
@@ -9,7 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController {
+    
+    NSMutableArray *dataSelect;
+}
 
 @end
 

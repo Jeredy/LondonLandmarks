@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		CE3BAEA628FA61D100B011CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEA528FA61D100B011CA /* AppDelegate.m */; };
 		CE3BAEA928FA61D100B011CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEA828FA61D100B011CA /* SceneDelegate.m */; };
-		CE3BAEAC28FA61D100B011CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEAB28FA61D100B011CA /* ViewController.m */; };
-		CE3BAEAF28FA61D100B011CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3BAEAD28FA61D100B011CA /* Main.storyboard */; };
 		CE3BAEB128FA61D300B011CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BAEB028FA61D300B011CA /* Assets.xcassets */; };
 		CE3BAEB428FA61D300B011CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3BAEB228FA61D300B011CA /* LaunchScreen.storyboard */; };
 		CE3BAEB728FA61D300B011CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEB628FA61D300B011CA /* main.m */; };
 		CE3BAEC128FA61D300B011CA /* LondonLandmarksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEC028FA61D300B011CA /* LondonLandmarksTests.m */; };
 		CE3BAECB28FA61D300B011CA /* LondonLandmarksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAECA28FA61D300B011CA /* LondonLandmarksUITests.m */; };
 		CE3BAECD28FA61D300B011CA /* LondonLandmarksUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAECC28FA61D300B011CA /* LondonLandmarksUITestsLaunchTests.m */; };
+		CEEA2FC128FE167500DD6E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA2FC028FE167400DD6E86 /* Main.storyboard */; };
+		CEEA2FC228FE167500DD6E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA2FC028FE167400DD6E86 /* Main.storyboard */; };
+		CEEA2FC528FE18A900DD6E86 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FC428FE18A900DD6E86 /* TableViewController.m */; };
+		CEEA2FC628FE18A900DD6E86 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FC428FE18A900DD6E86 /* TableViewController.m */; };
+		CEEA2FC928FE18D200DD6E86 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FC828FE18D200DD6E86 /* TableViewCell.m */; };
+		CEEA2FCA28FE18D200DD6E86 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FC828FE18D200DD6E86 /* TableViewCell.m */; };
+		CEEA2FCD28FE363E00DD6E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FCC28FE363E00DD6E86 /* ViewController.m */; };
+		CEEA2FCE28FE363E00DD6E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2FCC28FE363E00DD6E86 /* ViewController.m */; };
+		CEEA2FD028FE393400DD6E86 /* Landmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEEA2FCF28FE393400DD6E86 /* Landmarks.plist */; };
+		CEEA2FD128FE393400DD6E86 /* Landmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEEA2FCF28FE393400DD6E86 /* Landmarks.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +50,6 @@
 		CE3BAEA528FA61D100B011CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE3BAEA728FA61D100B011CA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		CE3BAEA828FA61D100B011CA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CE3BAEAA28FA61D100B011CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE3BAEAB28FA61D100B011CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE3BAEAE28FA61D100B011CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3BAEB028FA61D300B011CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3BAEB328FA61D300B011CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3BAEB528FA61D300B011CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +59,14 @@
 		CE3BAEC628FA61D300B011CA /* LondonLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3BAECA28FA61D300B011CA /* LondonLandmarksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonLandmarksUITests.m; sourceTree = "<group>"; };
 		CE3BAECC28FA61D300B011CA /* LondonLandmarksUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonLandmarksUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CEEA2FC028FE167400DD6E86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEEA2FC328FE18A900DD6E86 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CEEA2FC428FE18A900DD6E86 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CEEA2FC728FE18D200DD6E86 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CEEA2FC828FE18D200DD6E86 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		CEEA2FCB28FE363E00DD6E86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEEA2FCC28FE363E00DD6E86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEEA2FCF28FE393400DD6E86 /* Landmarks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Landmarks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +121,18 @@
 				CE3BAEA528FA61D100B011CA /* AppDelegate.m */,
 				CE3BAEA728FA61D100B011CA /* SceneDelegate.h */,
 				CE3BAEA828FA61D100B011CA /* SceneDelegate.m */,
-				CE3BAEAA28FA61D100B011CA /* ViewController.h */,
-				CE3BAEAB28FA61D100B011CA /* ViewController.m */,
-				CE3BAEAD28FA61D100B011CA /* Main.storyboard */,
+				CEEA2FC328FE18A900DD6E86 /* TableViewController.h */,
+				CEEA2FC428FE18A900DD6E86 /* TableViewController.m */,
+				CEEA2FC728FE18D200DD6E86 /* TableViewCell.h */,
+				CEEA2FC828FE18D200DD6E86 /* TableViewCell.m */,
+				CEEA2FC028FE167400DD6E86 /* Main.storyboard */,
 				CE3BAEB028FA61D300B011CA /* Assets.xcassets */,
 				CE3BAEB228FA61D300B011CA /* LaunchScreen.storyboard */,
 				CE3BAEB528FA61D300B011CA /* Info.plist */,
 				CE3BAEB628FA61D300B011CA /* main.m */,
+				CEEA2FCB28FE363E00DD6E86 /* ViewController.h */,
+				CEEA2FCC28FE363E00DD6E86 /* ViewController.m */,
+				CEEA2FCF28FE393400DD6E86 /* Landmarks.plist */,
 			);
 			path = LondonLandmarks;
 			sourceTree = "<group>";
@@ -241,7 +259,8 @@
 			files = (
 				CE3BAEB428FA61D300B011CA /* LaunchScreen.storyboard in Resources */,
 				CE3BAEB128FA61D300B011CA /* Assets.xcassets in Resources */,
-				CE3BAEAF28FA61D100B011CA /* Main.storyboard in Resources */,
+				CEEA2FD028FE393400DD6E86 /* Landmarks.plist in Resources */,
+				CEEA2FC128FE167500DD6E86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEA2FD128FE393400DD6E86 /* Landmarks.plist in Resources */,
+				CEEA2FC228FE167500DD6E86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3BAEAC28FA61D100B011CA /* ViewController.m in Sources */,
+				CEEA2FCD28FE363E00DD6E86 /* ViewController.m in Sources */,
 				CE3BAEA628FA61D100B011CA /* AppDelegate.m in Sources */,
 				CE3BAEB728FA61D300B011CA /* main.m in Sources */,
 				CE3BAEA928FA61D100B011CA /* SceneDelegate.m in Sources */,
+				CEEA2FC928FE18D200DD6E86 /* TableViewCell.m in Sources */,
+				CEEA2FC528FE18A900DD6E86 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3BAEC128FA61D300B011CA /* LondonLandmarksTests.m in Sources */,
+				CEEA2FCA28FE18D200DD6E86 /* TableViewCell.m in Sources */,
+				CEEA2FCE28FE363E00DD6E86 /* ViewController.m in Sources */,
+				CEEA2FC628FE18A900DD6E86 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE3BAEAD28FA61D100B011CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3BAEAE28FA61D100B011CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE3BAEB228FA61D300B011CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
