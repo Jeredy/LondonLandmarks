@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE08C7262900E9CF00B06C77 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08C7252900E9CF00B06C77 /* DetailViewController.m */; };
+		CE08C7292900EC3600B06C77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08C7282900EC3600B06C77 /* MapKit.framework */; };
 		CE3BAEA628FA61D100B011CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEA528FA61D100B011CA /* AppDelegate.m */; };
 		CE3BAEA928FA61D100B011CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BAEA828FA61D100B011CA /* SceneDelegate.m */; };
 		CE3BAEB128FA61D300B011CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BAEB028FA61D300B011CA /* Assets.xcassets */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE08C7242900E9CF00B06C77 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE08C7252900E9CF00B06C77 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CE08C7282900EC3600B06C77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CE3BAEA128FA61D100B011CA /* LondonLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3BAEA428FA61D100B011CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE3BAEA528FA61D100B011CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE08C7292900EC3600B06C77 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE08C7272900EC3500B06C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE08C7282900EC3600B06C77 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3BAE9828FA61D100B011CA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,7 @@
 				CE3BAEBF28FA61D300B011CA /* LondonLandmarksTests */,
 				CE3BAEC928FA61D300B011CA /* LondonLandmarksUITests */,
 				CE3BAEA228FA61D100B011CA /* Products */,
+				CE08C7272900EC3500B06C77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,8 @@
 				CEEA2FC428FE18A900DD6E86 /* TableViewController.m */,
 				CEEA2FC728FE18D200DD6E86 /* TableViewCell.h */,
 				CEEA2FC828FE18D200DD6E86 /* TableViewCell.m */,
+				CE08C7242900E9CF00B06C77 /* DetailViewController.h */,
+				CE08C7252900E9CF00B06C77 /* DetailViewController.m */,
 				CEEA2FC028FE167400DD6E86 /* Main.storyboard */,
 				CE3BAEB028FA61D300B011CA /* Assets.xcassets */,
 				CE3BAEB228FA61D300B011CA /* LaunchScreen.storyboard */,
@@ -293,6 +310,7 @@
 				CE3BAEA928FA61D100B011CA /* SceneDelegate.m in Sources */,
 				CEEA2FC928FE18D200DD6E86 /* TableViewCell.m in Sources */,
 				CEEA2FC528FE18A900DD6E86 /* TableViewController.m in Sources */,
+				CE08C7262900E9CF00B06C77 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
