@@ -1,6 +1,7 @@
 # LondonLandmarks App (Objective-C)📱 
   
   ## In it we can:
+    - Fetch a list of locations.
     - Show business location on map.
     - Show direction to the business location.
   
